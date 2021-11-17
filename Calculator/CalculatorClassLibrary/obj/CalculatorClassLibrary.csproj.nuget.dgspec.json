@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Epam\\Thinkorswim\\Thinkorswim\\Thinkorswim.csproj": {}
+    "D:\\EPAM_QA\\Calculator\\CalculatorClassLibrary\\CalculatorClassLibrary.csproj": {}
   },
   "projects": {
-    "D:\\Epam\\Thinkorswim\\Thinkorswim\\Thinkorswim.csproj": {
+    "D:\\EPAM_QA\\Calculator\\CalculatorClassLibrary\\CalculatorClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Epam\\Thinkorswim\\Thinkorswim\\Thinkorswim.csproj",
-        "projectName": "Thinkorswim",
-        "projectPath": "D:\\Epam\\Thinkorswim\\Thinkorswim\\Thinkorswim.csproj",
+        "projectUniqueName": "D:\\EPAM_QA\\Calculator\\CalculatorClassLibrary\\CalculatorClassLibrary.csproj",
+        "projectName": "CalculatorClassLibrary",
+        "projectPath": "D:\\EPAM_QA\\Calculator\\CalculatorClassLibrary\\CalculatorClassLibrary.csproj",
         "packagesPath": "C:\\Users\\Alesia.Ivanova\\.nuget\\packages\\",
-        "outputPath": "D:\\Epam\\Thinkorswim\\Thinkorswim\\obj\\",
+        "outputPath": "D:\\EPAM_QA\\Calculator\\CalculatorClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alesia.Ivanova\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,27 +40,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
+            "XunitXml.TestLogger": {
               "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[95.0.4638.6900, )"
+              "version": "[3.0.66, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[3.1.0, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
