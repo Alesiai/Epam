@@ -18,6 +18,8 @@ namespace Thinkorswim.Tests
             driver.FindElement(By.CssSelector("input[name='su_username']")).SendKeys("alesiai1");
             driver.FindElement(By.CssSelector("input[name='su_password']")).SendKeys("ve4nostp");
             driver.FindElement(By.CssSelector("input[name='authorize']")).Click();
+            
+            driver.FindElement(By.CssSelector("#positions-nav-btn")).Click();
             driver.FindElement(By.CssSelector("#trade-nav-btn")).Click();
             driver.FindElement(By.CssSelector("button[data-testid='TradeButton-buy']")).Click();
 
