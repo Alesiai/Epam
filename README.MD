@@ -1,7 +1,7 @@
 # Материалы по курсу Automated Testing Foundations 
-##Thinkorswim - автотесты WebUi с применением Selenium
-##Calculator - автотесты с применением Xunit тестирования на .Net
-##все было выгружено на Jenkins на GoogleCloud 
+#### Thinkorswim - автотесты WebUi с применением Selenium
+#### Calculator - автотесты с применением Xunit тестирования на .Net
+#### все было выгружено на Jenkins на GoogleCloud 
 
 #### Тест-кейс №1
 
